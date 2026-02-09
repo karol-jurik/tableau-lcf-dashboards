@@ -35,6 +35,6 @@ A short narrative was built around questions such as **cost of having a child by
 Portfolio / educational project. Tableau skills and the underlying principles (KPI consistency, robustness, interaction design) transfer well to **Power BI**.
 
 ## Documentation 
-- Dashboard write-up: docs/dashboard_all_tasks.pdf
-- Storytelling deck: docs/LCF_Storytelling_presentation.pdf
+- Dashboard write-up: `docs/dashboard_all_tasks.pdf`
+- Storytelling deck: `docs/LCF_Storytelling_presentation.pdf`
 
