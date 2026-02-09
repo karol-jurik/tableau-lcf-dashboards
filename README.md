@@ -1,34 +1,40 @@
 # UK Living Costs & Savings — Interactive BI Dashboards (Tableau)
 
-Two-level Tableau dashboard suite (overview + drill-down) built to explore **regional differences in household income, expenditure and derived savings** in the UK.  
-Designed for **stakeholder-friendly consumption** (fast overview) while enabling **deeper investigation** (drill-down).
+Two-level Tableau dashboard suite (overview + drill-down) exploring **regional differences in household income, expenditure and derived savings** in the UK.
+Built with an emphasis on **robust KPI choices** and **stakeholder-friendly navigation**.
+
+## Preview
+![Primary dashboard](assets/primary.png)
+![Secondary dashboard](assets/secondary.png)
 
 ## Live dashboards
-- **Primary dashboard (Overview):**  
+- **Primary (Overview):**
   https://public.tableau.com/app/profile/karol.jur.k/viz/LCF_dashboard/Dashboard1
-- **Secondary dashboard (Drill-down):**  
+- **Secondary (Drill-down):**
   https://public.tableau.com/app/profile/karol.jur.k/viz/LCF_dashboard/Dashboard4
+- **GitHub Pages (embed):**
+  https://karol-jurik.github.io/tableau-lcf-dashboards/
 
-## What this project demonstrates
-- **BI dashboarding skills:** clear KPI layout, interactivity, drill-down structure, and usability-focused design.
-- **Analytics mindset:** exploratory checks and robust reporting choices (see “Design choices” below).
-- **Stakeholder-ready output:** published dashboards with a simple navigation flow (overview → detail).
+## What this demonstrates
+- **Dashboarding & BI thinking:** clear layout, interaction design, and drill-down flow (overview → detail).
+- **Data awareness:** handling distribution issues (top-coding / outliers) via robust summarization.
+- **Communication:** a data-driven story for a concrete user decision ("move or stay" when planning a family).
 
-## Design choices (why it’s built this way)
-- **Two-level flow:** users start with a high-level regional view and then drill down for details.
-- **Median-based KPIs:** chosen to reduce sensitivity to top-coding / outliers and make comparisons more robust.
-- **Interactive filtering:** region selection drives the rest of the views to support focused exploration.
+## Design choices 
+- **Two-level flow:** start with regional overview, then drill down into segmentation/filters.
+- **Median-based KPIs:** chosen because key variables are not normally distributed and are top-coded, so the median is more stable than the mean.
+- **Interactive filtering:** region selection drives the rest of the views.
 
-## Key features
-- **UK region map** as an interactive filter
-- **Income vs. expenditure** comparison and derived **savings**
-- Drill-down slicing by household characteristics (e.g., household size / number of children)
+## Data 
+Based on the UK Living Costs and Food Survey teaching dataset (LCF): ~5.2k households and 14 variables including income, total expenditure and socio-demographics.
 
-## GitHub Pages
-https://karol-jurik.github.io/tableau-lcf-dashboards/
+## Storytelling 
+A short narrative was built around questions such as **cost of having a child by region** and how income/expenditure trade-offs affect relocation decisions.
 
-## About the data
-UK Living Costs and Food Survey (LCF) dataset used for educational/portfolio purposes.
+## Notes
+Portfolio / educational project. Tableau skills and the underlying principles (KPI consistency, robustness, interaction design) transfer well to **Power BI**.
 
-## Transferable skills
-Built in Tableau, but the same principles apply to **Power BI** and other BI tools: KPI consistency, data modelling mindset, interactive exploration, and reliable/robust metrics.
+## Documentation 
+- Dashboard write-up: docs/dashboard_all_tasks.pdf
+- Storytelling deck: docs/LCF_Storytelling_presentation.pdf
+
