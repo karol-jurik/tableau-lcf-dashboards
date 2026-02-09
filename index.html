@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LCF Dashboards (Tableau)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.4; }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    .note { color: #555; margin-top: 6px; }
+    .card { border: 1px solid #eee; padding: 16px; border-radius: 14px; margin: 18px 0; }
+    h1 { margin: 0 0 10px 0; }
+    h2 { margin: 0 0 8px 0; }
+    a { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>LCF Dashboards (Tableau)</h1>
+    <p class="note">Embedded from Tableau Public. Primary = overview; Secondary = drill-down.</p>
+
+    <div class="card">
+      <h2>Primary dashboard</h2>
+      <p class="note">
+        <a href="https://public.tableau.com/app/profile/karol.jur.k/viz/LCF_dashboard/Dashboard1" target="_blank" rel="noopener">
+          Open on Tableau Public
+        </a>
+      </p>
+
+      <div class="tableauPlaceholder" id="vizPrimary" style="position: relative">
+        <noscript>
+          <a href="#"><img alt="Primary Dashboard" src="https://public.tableau.com/static/images/LC/LCF_dashboard/Dashboard1/1_rss.png" style="border:none;" /></a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="site_root" value="" />
+          <param name="name" value="LCF_dashboard/Dashboard1" />
+          <param name="tabs" value="no" />
+          <param name="toolbar" value="yes" />
+          <param name="static_image" value="https://public.tableau.com/static/images/LC/LCF_dashboard/Dashboard1/1.png" />
+          <param name="animate_transition" value="yes" />
+          <param name="display_static_image" value="yes" />
+          <param name="display_spinner" value="yes" />
+          <param name="display_overlay" value="yes" />
+          <param name="display_count" value="yes" />
+          <param name="language" value="en-US" />
+        </object>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Secondary dashboard</h2>
+      <p class="note">
+        <a href="https://public.tableau.com/app/profile/karol.jur.k/viz/LCF_dashboard/Dashboard4" target="_blank" rel="noopener">
+          Open on Tableau Public
+        </a>
+      </p>
+
+      <div class="tableauPlaceholder" id="vizSecondary" style="position: relative">
+        <noscript>
+          <a href="#"><img alt="Secondary Dashboard" src="https://public.tableau.com/static/images/LC/LCF_dashboard/Dashboard4/1_rss.png" style="border:none;" /></a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="site_root" value="" />
+          <param name="name" value="LCF_dashboard/Dashboard4" />
+          <param name="tabs" value="no" />
+          <param name="toolbar" value="yes" />
+          <param name="static_image" value="https://public.tableau.com/static/images/LC/LCF_dashboard/Dashboard4/1.png" />
+          <param name="animate_transition" value="yes" />
+          <param name="display_static_image" value="yes" />
+          <param name="display_spinner" value="yes" />
+          <param name="display_overlay" value="yes" />
+          <param name="display_count" value="yes" />
+          <param name="language" value="en-US" />
+        </object>
+      </div>
+    </div>
+
+    <p class="note">GitHub: <a href="https://github.com/karol-jurik" target="_blank" rel="noopener">karol-jurik</a></p>
+  </div>
+
+  <script type="text/javascript">
+    function resize(vizId, ratio) {
+      var div = document.getElementById(vizId);
+      var obj = div.getElementsByTagName("object")[0];
+      obj.style.width = "100%";
+      obj.style.height = (div.offsetWidth * (ratio || 0.75)) + "px";
+    }
+
+    resize("vizPrimary", 0.75);
+    resize("vizSecondary", 0.75);
+
+    var s = document.createElement("script");
+    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+    document.body.appendChild(s);
+  </script>
+</body>
+</html>
